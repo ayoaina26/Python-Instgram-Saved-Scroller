@@ -16,13 +16,13 @@ driver.maximize_window()
 driver.implicitly_wait(10)
 
 username = driver.find_element_by_name('username')
-username.send_keys('ayo_theblackguy')
+username.send_keys('insert-username-here')
 username.send_keys(Keys.RETURN)
 
 driver.implicitly_wait(10)
 
 password = driver.find_element_by_name('password')
-password.send_keys('ayoain4609')
+password.send_keys('insert-password-here')
 password.send_keys(Keys.RETURN)
 
 driver.implicitly_wait(10)
